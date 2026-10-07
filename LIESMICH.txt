@@ -1,0 +1,38 @@
+Haushaltsbuch als App auf dem iPhone
+====================================
+
+Die App läuft komplett auf deinem Gerät. Sie braucht kein Claude-Abo und kein Konto.
+Deine Daten bleiben im Browser-Speicher des iPhones.
+
+1. Ordner veröffentlichen (einmalig, kostenlos), z. B. mit GitHub Pages:
+   - Auf github.com ein kostenloses Konto anlegen.
+   - Neues Repository "monatsbudget" erstellen (öffentlich), "Add file" -> "Upload files",
+     alle Dateien aus diesem Ordner hineinziehen, "Commit changes".
+   - Settings -> Pages -> Branch "main", Ordner "/ (root)" -> Save.
+   - Nach ca. 1 Minute ist die App unter https://DEINNAME.github.io/monatsbudget/ erreichbar.
+   (Alternativ: Netlify Drop oder Cloudflare Pages – Ordner hochladen, fertig.)
+
+2. Auf dem iPhone installieren:
+   - Die Adresse in Safari öffnen.
+   - Teilen-Symbol -> "Zum Home-Bildschirm" -> Hinzufügen.
+   - Ab jetzt startet "Haushaltsbuch" wie eine App, im Vollbild und auch offline.
+
+3. Daten übernehmen:
+   - In der Claude-Version auf "Sicherung speichern" tippen.
+   - In der App auf "Sicherung laden" tippen und die Datei wählen.
+
+Wichtig:
+- Die App speichert NICHTS auf dem Gerät. Jeder Start beginnt leer.
+- Zum Weitermachen: "Sicherung laden" tippen und deine letzte Sicherungsdatei wählen.
+- Vor dem Schließen: "Sicherung speichern" tippen, einen Sicherungscode festlegen
+  und die Datei z. B. in iCloud Drive ablegen.
+- Die Sicherung ist mit dem Sicherungscode verschlüsselt. Beim Laden fragt die App danach.
+  Ohne diesen Code lässt sich die Datei nicht mehr öffnen – gut aufschreiben!
+- Das Repository ist öffentlich, enthält aber nur das leere Programm, keine deiner Zahlen.
+
+Code-Sperre:
+- Beim ersten Start legst du einen Code (4 bis 8 Ziffern) fest. Danach fragt die App bei jedem Öffnen danach
+  und sperrt sich wieder, wenn sie länger als 1 Minute im Hintergrund war. "Sperren" sperrt sofort.
+- Code vergessen? Auf dem iPhone: Einstellungen -> Apps -> Safari -> Erweitert -> Website-Daten,
+  dort die Adresse deiner App löschen. Danach kannst du einen neuen Code festlegen.
+  (Es geht dabei nichts verloren, die App speichert ohnehin keine Zahlen.)
